@@ -1,0 +1,22 @@
+{
+  "id": "pf2e-kitsune-extension",
+  "title": "PF2e Kitsune Extension",
+  "description": "A simple module which implements the Kitsune Fox Form.",
+  "authors": [{
+      "name": "KaitoKuroba"
+  }],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "pf2e-kitsune",
+      "label": "PF2e Kitsune",
+      "system": "pf2e",
+      "path": "./packs/pf2e-kitsune-items.db",
+      "type": "Item"
+    }
+  ]
+}
